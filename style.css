@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-color: #7ec8e3;
+}
+
+h1 {
+  color: #0000ff;
+  height: 40px;
+}
+
+p {
+  color: #393c52;
+}
+
+
+.gamesCreated {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.item {
+  background-color: #000c66;
+}
+
+.item p {
+  color: #7ec8e3;
+}
+.aboutUs2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutUs {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutUs *{
+  margin: 20px;
+  padding: 10px;
+  
+}
+.aboutUs2 a{
+  color:white
+}
+.aboutUs2 a:visited {
+  color:yellowgreen
+}
+.aboutUs2 a:hover{
+  font-size: 20px;
+}
+.item{
+  position:relative;
+  padding:10px;
+  margin: 15px;
+}
+.item p{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+
+}
+.item:hover p{
+  opacity: 1;
+  
+}
